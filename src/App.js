@@ -1,31 +1,12 @@
 import React from 'react';
-import api from './Utils/api';
-import Card from './components/Card';
+import Logs from './components/Logs';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: '',
-    };
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
+function App() {
+  return (
+    <div>
+      <Logs />
+    </div>
+  );
+}
 
-  handleSubmit(e) {
-    e.preventDefault();
-    const url = 'http://localhost:3000/logs'
-    const response = api.loadData(url);
-    console.log("response is...");
-    console.log(response);
-  }
-
-  render() {
-    return (
-      <div>
-        <Card handleSubmit={this.handleSubmit} />
-      </div>
-    );
-  }
-};
-
-  export default App;
+export default App;
