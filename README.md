@@ -1,9 +1,12 @@
 # Change Log
 
-# Possible Tools
-* https://www.npmjs.com/package/website-to-json
-* https://github.com/reactivestack/cookies/tree/master/packages/universal-cookie
-* https://medium.com/@dmitrynozhenko/5-ways-to-animate-a-reactjs-app-in-2019-56eb9af6e3bf
+* Clone the [change-log-api](https://github.com/latoyaallen/change-log-api) repo
+* Install the dependencies `bundle install`
+* Run the change-log-api repo on localhost:3000. `rails server`
+* If you do not run the server on localhost:3000, update the code
+  [here](https://github.com/latoyaallen/change-log/blob/master/src/components/Logs.js#L13).
 
-# Reference
-* https://medium.com/@dmitrynozhenko/5-ways-to-animate-a-reactjs-app-in-2019-56eb9af6e3bf
+* Clone the change-log repo
+* Install the dependencies npm install
+* Run the server `npm start`
+* Run the tests `npm test`

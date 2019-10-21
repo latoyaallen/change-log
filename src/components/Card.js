@@ -8,6 +8,7 @@ import formatContent from '../lib/formatContent';
 const row = {
   display: 'flex',
   paddingBottom: '160px',
+  paddingTop: '30px',
 }
 
 const columnLeft = {
